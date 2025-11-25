@@ -86,7 +86,7 @@ document.body.style.transition = 'opacity 0.5s ease';
 
 setTimeout(() => {
 document.body.style.opacity = '1';
-}, 100);
+}, 500);
 });
 
 const form = document.getElementById("contactForm");
@@ -203,4 +203,5 @@ const content = button.nextElementSibling;
 button.classList.toggle("active");
 content.classList.toggle("show");
 });
+
 });
